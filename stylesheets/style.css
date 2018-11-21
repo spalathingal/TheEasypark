@@ -1,0 +1,62 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.img,.img2,.img3,.img4{
+position: relative;
+opacity: 0.70;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.logo{
+  background: url('../images/TheEasypark.png') no-repeat;
+  min-height: 250px;
+  min-width: 300;
+  background-size:contain;
+  background-position: center;
+}
+
+.img{
+  background:url('../images/howItWorks.png') no-repeat;
+  background-size:contain;
+  min-height: 450px;
+  background-position: center;
+}
+
+.img2{
+  background:url('../images/whoWeAre.png') no-repeat;
+  background-size:contain;
+  min-height: 325px;
+  background-position: center;
+}
+
+.img3{
+  background-image:url('../images/parkingGarage.jpg') ;
+  min-height: 300px;
+
+}
+
+.img4{
+  background-image:url('../images/carParked.jpg') ;
+  min-height: 300px;
+
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f0f0f5;
+  color:#000000;
+}
