@@ -7,15 +7,12 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel='stylesheet' href='stylesheets/style.css' />
 
-		<!-- Load c3.css -->
-		<link href="stylesheets/c3.css" rel="stylesheet" type="text/css">
+		<!-- Load maps.css -->
+		<link href="stylesheets/maps.css" rel="stylesheet" type="text/css">
 
-		<!-- Load d3.js and c3.js -->
-		<script src="javascripts/d3.v3.min.js" charset="utf-8"></script>
-		<script src="javascripts/c3.min.js"></script>
+		<!-- Load maps.js -->
+		<script src="javascripts/maps.js"></script>
 
-		<!-- Load papaparse.js -->
-		<script src="javascripts/papaparse.min.js"></script>
   	</head>
   	<body>
   		<!--Logo (found on google images) -->
@@ -60,6 +57,14 @@
       		<p>La la la la.</p>
     	</section>
 
+		<h3>Granmarc Baby</h3>
+		<!--The div element for the map -->
+		<div id="map"></div>
+		<!-- Replace the value of the key parameter with your own API key. -->
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpttEolhhC9033ReLOX_AgBGWDQ8_2E6Q&callback=initMap">
+		</script>
+
     	<!--scrolling image 3 -->
     	<div class="img3">
       		<div class="ptext">
@@ -81,7 +86,5 @@
         		</span>
       		</div>
     	</div>
-
-		<script src="javascripts/create-graph.js"></script>
   	</body>
 </html>
